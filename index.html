@@ -12,18 +12,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="./style.css">
     <title>Interior Consultant</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="title-logo">This interior</div>
-            <div class="button-menu">
-                <span class="material-icons md-light">menu</span>
-            </div>
+    <header class="header">
+        <nav class="container">
+        <div class="title-logo"><span>This interior</span></div>
+        <div class="toggle button-menu">
+                <span class="material-icons md-light" >menu</span>
+        </div>
+        <div class="toggle button-menu-close">
+            <span class="material-icons md-light">close</span>
+        </div>
+        <div class="menu">
+            <ul class="grid">
+                <li><a href="#"><u>Ínicio</u></a></li>
+                <li><a href="#">Coleção</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
         </nav>
     </header>
     <main>
@@ -31,21 +42,24 @@
             <div class="text-content">
                 <div class="title-text-content">Modern interior</div>
                 <p>Uma empresa de serviços residênciais e design de interiores, com serviço completo que oferece serviços profissionais para organizações de forma ecológica.</p>
-                <p class="read-more">Read more<span class="material-icons md-light">trending_flat</span></p>
+                <p class="read-more">Read more&nbsp&nbsp<span class="material-icons md-light">trending_flat</span></p>
             </div>
             <div class="img-content">
                 <figure class="img-main"><img src="./img/photo1.png" alt="Sala de TV decorada"></figure>
                 <div class="post-author">
-                    <figure><img src="./img/photo2.png" alt="Avatar do autor"></figure>
+                    <figure ><img class="img-author" src="./img/photo2.png" alt="Avatar do autor"></figure>
                     <div class="description-author">
                         <div class="name-author">Aliza Webber</div>
                         <div class="subtitle-author">Interior designer</div>
                     </div>
                     <div class="title-post-author">Design em 2021 por Aliza Webbers</div>
                 </div>
+                
             </div>
         </div>
     </main>
-    <footer>criado por williamhmw - devChallenges.io</footer>
+    <footer>criado por&nbsp<span class="name-developer"><u>williamhmw</u></span>&nbsp- devChallenges.io</footer>
+    <!--    Script menu     -->
+    <script src="./script.js"></script>
 </body>
 </html>
