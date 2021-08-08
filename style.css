@@ -284,6 +284,9 @@ footer{
         opacity: 1;
         visibility: visible;
         top:0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 500;
     }
 
     nav .menu ul{
@@ -313,5 +316,7 @@ footer{
     }
 
     /*  Footer */
-
+    footer{
+        padding-top: 8rem;
+    }
 }
